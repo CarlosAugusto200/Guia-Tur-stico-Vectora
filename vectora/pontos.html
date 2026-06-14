@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turismo e Cultura - Vectora</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo">
+            <h1>Vectora</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pontos.html">Turismo</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="curiosidades.html">Curiosidades</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Explore Nossos Pontos Turísticos</h2>
+            <p>Clique em "Avaliar este Ponto" para deixar seu comentário de forma individual.</p>
+            
+            <div class="grid-container">
+                
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e" alt="Jardim Botânico">
+                    <h3>Castelo Vectorios</h3>
+                    <p>Cúpulas geodésicas climatizadas com espécies raras de todo o mundo e automação sustentável.</p>
+                    
+                    <button type="button" class="btn-avaliar" onclick="toggleForm(this)">Avaliar este Ponto</button>
+                    
+                    <form class="mini-form" onsubmit="salvarComentario(event, this)">
+                        <div class="form-group">
+                            <label>Seu Nome:</label>
+                            <input type="text" name="nome" placeholder="Digite seu nome" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Comentário:</label>
+                            <textarea name="comentario" rows="3" placeholder="O que você achou do Jardim Botânico?" required></textarea>
+                        </div>
+                        <button type="submit">Salvar Comentário</button>
+                    </form>
+                </div>
+
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df" alt="Torre Central">
+                    <h3>Avenida Circular</h3>
+                    <p>O ponto mais alto da cidade. Oferece uma vista panorâmica de 360 graus de toda a infraestrutura ecotecnológica.</p>
+                    
+                    <button type="button" class="btn-avaliar" onclick="toggleForm(this)">Avaliar este Ponto</button>
+                    
+                    <form class="mini-form" onsubmit="salvarComentario(event, this)">
+                        <div class="form-group">
+                            <label>Seu Nome:</label>
+                            <input type="text" name="nome" placeholder="Digite seu nome" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Comentário:</label>
+                            <textarea name="comentario" rows="3" placeholder="O que você achou da Torre Central?" required></textarea>
+                        </div>
+                        <button type="submit">Salvar Comentário</button>
+                    </form>
+                </div>
+
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1448375240586-882707db888b" alt="Praça Central">
+                    <h3>Bairro Magus</h3>
+                    <p>Onde a comunidade e a tecnologia se encontram. Possui árvores cinéticas que geram energia solar à noite.</p>
+                    
+                    <button type="button" class="btn-avaliar" onclick="toggleForm(this)">Avaliar este Ponto</button>
+                    
+                    <form class="mini-form" onsubmit="salvarComentario(event, this)">
+                        <div class="form-group">
+                            <label>Seu Nome:</label>
+                            <input type="text" name="nome" placeholder="Digite seu nome" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Comentário:</label>
+                            <textarea name="comentario" rows="3" placeholder="O que você achou da Praça Central?" required></textarea>
+                        </div>
+                        <button type="submit">Salvar Comentário</button>
+                    </form>
+                </div>
+
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1448375240586-882707db888b" alt="Praça Central">
+                    <h3>Bairro Barra</h3>
+                    <p>Onde a comunidade e a tecnologia se encontram. Possui árvores cinéticas que geram energia solar à noite.</p>
+                    
+                    <button type="button" class="btn-avaliar" onclick="toggleForm(this)">Avaliar este Ponto</button>
+                    
+                    <form class="mini-form" onsubmit="salvarComentario(event, this)">
+                        <div class="form-group">
+                            <label>Seu Nome:</label>
+                            <input type="text" name="nome" placeholder="Digite seu nome" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Comentário:</label>
+                            <textarea name="comentario" rows="3" placeholder="O que você achou da Praça Central?" required></textarea>
+                        </div>
+                        <button type="submit">Salvar Comentário</button>
+                    </form>
+                </div>
+
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1448375240586-882707db888b" alt="Praça Central">
+                    <h3>Bairro Mucro</h3>
+                    <p>Onde a comunidade e a tecnologia se encontram. Possui árvores cinéticas que geram energia solar à noite.</p>
+                    
+                    <button type="button" class="btn-avaliar" onclick="toggleForm(this)">Avaliar este Ponto</button>
+                    
+                    <form class="mini-form" onsubmit="salvarComentario(event, this)">
+                        <div class="form-group">
+                            <label>Seu Nome:</label>
+                            <input type="text" name="nome" placeholder="Digite seu nome" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Comentário:</label>
+                            <textarea name="comentario" rows="3" placeholder="O que você achou da Praça Central?" required></textarea>
+                        </div>
+                        <button type="submit">Salvar Comentário</button>
+                    </form>
+                </div>
+
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1448375240586-882707db888b" alt="Praça Central">
+                    <h3>Bairro Numen</h3>
+                    <p>Onde a comunidade e a tecnologia se encontram. Possui árvores cinéticas que geram energia solar à noite.</p>
+                    
+                    <button type="button" class="btn-avaliar" onclick="toggleForm(this)">Avaliar este Ponto</button>
+                    
+                    <form class="mini-form" onsubmit="salvarComentario(event, this)">
+                        <div class="form-group">
+                            <label>Seu Nome:</label>
+                            <input type="text" name="nome" placeholder="Digite seu nome" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Comentário:</label>
+                            <textarea name="comentario" rows="3" placeholder="O que você achou da Praça Central?" required></textarea>
+                        </div>
+                        <button type="submit">Salvar Comentário</button>
+                    </form>
+                </div>
+
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1448375240586-882707db888b" alt="Praça Central">
+                    <h3>Praça de Entrada</h3>
+                    <p>Onde a comunidade e a tecnologia se encontram. Possui árvores cinéticas que geram energia solar à noite.</p>
+                    
+                    <button type="button" class="btn-avaliar" onclick="toggleForm(this)">Avaliar este Ponto</button>
+                    
+                    <form class="mini-form" onsubmit="salvarComentario(event, this)">
+                        <div class="form-group">
+                            <label>Seu Nome:</label>
+                            <input type="text" name="nome" placeholder="Digite seu nome" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Comentário:</label>
+                            <textarea name="comentario" rows="3" placeholder="O que você achou da Praça Central?" required></textarea>
+                        </div>
+                        <button type="submit">Salvar Comentário</button>
+                    </form>
+                </div>
+
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1448375240586-882707db888b" alt="Praça Central">
+                    <h3>Estação de Ancoragem</h3>
+                    <p>Onde a comunidade e a tecnologia se encontram. Possui árvores cinéticas que geram energia solar à noite.</p>
+                    
+                    <button type="button" class="btn-avaliar" onclick="toggleForm(this)">Avaliar este Ponto</button>
+                    
+                    <form class="mini-form" onsubmit="salvarComentario(event, this)">
+                        <div class="form-group">
+                            <label>Seu Nome:</label>
+                            <input type="text" name="nome" placeholder="Digite seu nome" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Comentário:</label>
+                            <textarea name="comentario" rows="3" placeholder="O que você achou da Praça Central?" required></textarea>
+                        </div>
+                        <button type="submit">Salvar Comentário</button>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Guia Turístico de Vectora. Desenvolvido para a disciplina de Desenvolv. Web I.</p>
+    </footer>
+
+    <script>
+        // Abre e fecha o formulário apenas do Card clicado
+        function toggleForm(botao) {
+            const card = botao.closest('.card');
+            card.classList.toggle('active');
+        }
+
+        // Processa o salvamento de forma local (sem recarregar a página)
+        function salvarComentario(event, formulario) {
+            event.preventDefault(); // Remove o comportamento padrão de atualizar a página
+            
+            const nome = formulario.querySelector('input[name="nome"]').value;
+            
+            // Mensagem de sucesso confirmando a ação
+            alert(`Obrigado, ${nome}! Seu comentário foi enviado com sucesso.`);
+            
+            // Limpa os campos do formulário para uma próxima utilização
+            formulario.reset();
+            
+            // Fecha o formulário removendo a classe do card correspondente
+            const card = formulario.closest('.card');
+            card.classList.remove('active');
+        }
+    </script>
+
+</body>
+</html>
